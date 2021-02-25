@@ -1,0 +1,73 @@
+
+.container_admin{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    padding-top: 70px !important;
+}
+.panel-admin{
+    margin-top: 136px;
+}
+
+.titulo_panel{
+    font-size: 40px;
+    color: mediumpurple;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.linea_horizontal_izq{
+    height: 2px;
+    background: mediumpurple;
+    width: 390px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.pedidos_realizados{
+    width: 100%;
+    text-align: center;
+}
+
+.pedidos_realizados th{
+    text-align: center;
+}
+
+.opciones img{
+    height: 25px;
+    margin: 0 10px;
+}
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --RESPONSIVE -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+@media (max-height: 768px){ 
+    /* alto portatil */
+
+}
+
+
+@media only screen 
+    and (max-width: 1367px) 
+    and (max-height: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5){
+        /* Ipad Pro Horizontal */
+
+}
+
+@media (max-width: 1200px){
+    /* monitores normales y tablet horizontal */
+
+}
+
+@media (max-width: 992px){ 
+    /* tablet vertical */
+
+}
+
+@media (max-width: 767px){
+    /* móviles*/
+
+}

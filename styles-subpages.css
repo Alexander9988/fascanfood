@@ -1,0 +1,74 @@
+.animacion {
+    transition: all 300ms linear !important;
+    -webkit-transition: all 300ms linear !important;
+    -moz-transition: all 300ms linear !important;
+    -ms-transition: all 300ms linear !important;
+    -o-transition: all 300ms linear !important;
+}
+/* -- -- -- Estilos para los restaurantes -- -- -- */
+
+.restaurantes{
+    margin-top: 220px !important;
+    margin-bottom: 200px !important;
+}
+
+/* -- -- -- Estilos para la carta -- -- -- */
+
+.carta{
+    margin-top: 170px !important;
+    margin-bottom: 100px !important;
+}
+
+/* -- -- -- Estilos para los cocineros -- -- -- */
+
+.cocineros{
+    margin-top: 186px !important;
+}
+
+@media (max-height: 768px){ 
+    /* alto portatil */
+
+}
+
+@media only screen 
+    and (max-width: 1367px) 
+    and (max-height: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5){
+        /* Ipad Pro Horizontal */
+}
+
+@media (max-width: 1200px){
+    /* monitores normales y tablet horizontal */
+
+    /* -- -- -- Estilos para los restaurantes -- -- -- */
+
+    .restaurantes{
+        margin-top: 103px !important;
+    }
+
+    /* -- -- -- Estilos para la carta -- -- -- */
+
+    .carta{
+        margin-top: 90px !important;
+    }
+
+    /* -- -- -- Estilos para los cocineros -- -- -- */
+
+    .cocineros{
+        margin-top: 96px !important;
+    }
+}
+
+@media (max-width: 992px){ 
+    /* tablet vertical */
+}
+
+@media (max-width: 767px){
+    /* móviles*/
+
+    .restaurantes{
+        margin-bottom: 50px !important;
+
+    }
+}

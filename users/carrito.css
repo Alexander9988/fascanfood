@@ -1,0 +1,224 @@
+.footer{
+    position: static !important;
+    bottom: 0;
+}
+
+.mis_menus{
+    margin-bottom: 100px;
+}
+
+.tipo_carro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #272727;
+    margin: 50px 0 0;
+}
+
+.num_pedido{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #272727;
+    margin-top: 50px;
+}
+.mi_menu {
+    background-color: #cdcde1;
+    width: 100%;
+    padding: 20px;
+}
+
+.mi_menu.centrado{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mi_menu_img{
+    height: 150px;
+}
+
+.mi_menu_img img{
+    height: 100%;
+}
+
+.mi_menu_precio_cantidad{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #272727;
+}
+
+.mi_menu_descripcion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #272727;
+    width: 470px;
+}
+
+.mi_menu_descripcion p{
+    margin-bottom: 2px;
+}
+
+.mi_menu_opciones{
+    padding: 20px;
+}
+.mi_menu_opciones a{
+    height: 25px;
+    width: 25px;
+    margin: 0 5px;
+}
+
+.mi_menu_opciones a:hover{
+    transform: scale(1.1);
+}
+
+.mi_menu_opciones a img{
+    height: 100%;
+}
+
+.mi_menu_total{
+    background: #e8e8e8;
+    padding: 50px 300px;;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #272727;
+}
+
+.btn_comprar{
+    border-radius: 0;
+    background-image: none;
+    border: 0px;
+    margin: 50px calc(0px + 500px);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    width: 250px;
+    height: 40px;
+    padding: 8px 5px;
+}
+
+.btn_comprar.hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #dfdd4b;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.btn_comprar.hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #5151d4;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.btn_comprar.hvr-shutter-out-horizontal:hover, .btn_comprar.hvr-shutter-out-horizontal:focus, .btn_comprar.hvr-shutter-out-horizontal:active {
+    color: white;
+}
+.btn_comprar.hvr-shutter-out-horizontal:hover:before, .btn_comprar.hvr-shutter-out-horizontal:focus:before, .btn_comprar.hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+@media (max-height: 768px){ 
+    /* alto portatil */
+
+}
+
+@media only screen 
+    and (max-width: 1367px) 
+    and (max-height: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5){
+        /* Ipad Pro Horizontal */
+
+}
+
+@media (max-width: 1200px){
+    /* monitores normales y tablet horizontal */
+    .mis_menus{
+        margin-bottom: 0px;
+    }
+
+    .mi_menu_descripcion{
+        font-size: 15px;
+        width: 330px;
+    }
+
+    .registro{
+        margin-top: 53px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .btn_comprar{
+        margin: 50px calc(0px + 280px);
+    }
+
+    .mi_menu_total{
+        padding: 30px 140px;
+    }
+
+}
+
+@media (max-width: 992px){ 
+    /* tablet vertical */
+
+    .mi_menu_descripcion{
+        font-size: 14px;
+        width: 240px;
+    }
+
+    .mi_menu_img{
+        height: 100px;
+    }
+
+    .btn_comprar{
+        margin: 50px calc(0px + 190px);
+    }
+}
+
+@media (max-width: 767px){
+
+    /* móviles*/
+    
+        .btn_comprar {
+        margin: 50px calc(0px + 47px);
+    }
+    
+    .mi_menu.centrado{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+    
+    .mi_menu_descripcion{
+        text-align: center;
+    }
+    
+    .mi_menu_total{
+        padding: 20px 50px
+    }    
+    
+}

@@ -1,0 +1,390 @@
+/* -- -- -- Estilos para el footer -- -- -- */
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+}
+
+/* -- -- -- Estilos para los registros -- -- -- */
+
+.registro{
+    margin-top: 136px;
+    margin-bottom: 50px;
+}
+
+.registro p.centrado{
+    margin-top: 10px;
+}
+
+.registro_cabecera{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.registro_cabecera .titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #6666cc;
+    margin-bottom: 0;
+}
+
+.registro .linea_horizontal{
+    height: 2px;
+    width: 305px;
+    background-color:#6666cc;
+    margin: 0 auto 20px;
+}
+
+.formulario_registro{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #dfdd4b;
+    border: 2px solid #6666cc;
+
+}
+
+/* -- -- -- Estilos para el inicio -- -- -- */
+
+.inicio{
+    margin-top: 136px;
+}
+
+.inicio p.centrado{
+    margin-top: 10px;
+}
+
+.inicio_cabecera{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.inicio_cabecera .titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #6666cc;
+    margin-bottom: 0;
+}
+
+.inicio .linea_horizontal{
+    height: 2px;
+    width: 305px;
+    background-color:#6666cc;
+    margin: 0 auto 20px;
+}
+
+.formulario_inicio{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #dfdd4b;
+    border: 2px solid #6666cc;
+
+}
+
+.alerta_correo{
+    opacity: 0
+}
+
+.alerta_pass{
+    opacity: 0;
+}
+
+.alerta_reg_nombre{
+    opacity: 0;
+}
+
+.alerta_reg_apellidos{
+    opacity: 0;
+}
+
+.alerta_reg_correo{
+    opacity: 0;
+}
+
+.alerta_reg_pass{
+    opacity: 0;
+}
+
+.alerta_reg_pass_con{
+    opacity: 0;
+}
+
+.alerta_reg_pass_con2{
+    opacity: 0;
+}
+
+.alerta_direccion{
+    opacity: 0;
+}
+
+.alerta_tfn{
+    opacity: 0;
+}
+
+.alerta_metodo{
+    opacity: 0;
+}
+/* -- -- -- Estilos para el formulario -- -- -- */
+
+.btn_registro{
+    background-color: #6666cc;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn_registro.hvr-shutter-out-horizontal{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    /*    background: transparent;*/
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;   
+}
+.btn_registro.hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #c7c64e;
+    border-radius: 3px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.btn_registro.hvr-shutter-out-horizontal:hover, 
+.btn_registro.hvr-shutter-out-horizontal:focus, 
+.btn_registro.hvr-shutter-out-horizontal:active {
+    color: white;
+}
+.btn_registro.hvr-shutter-out-horizontal:hover:before, 
+.btn_registro.hvr-shutter-out-horizontal:focus:before, 
+.btn_registro.hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* -- -- -- Estilos para datos de la compra -- -- -- */
+
+
+.compra{
+    margin-top: 136px;
+}
+
+.compra p.centrado{
+    margin-top: 10px;
+}
+
+.compra_cabecera{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.compra_cabecera .titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #6666cc;
+    margin-bottom: 0;
+}
+
+.compra .linea_horizontal{
+    height: 2px;
+    width: 305px;
+    background-color:#6666cc;
+    margin: 0 auto 20px;
+}
+
+.formulario_compra{
+    width: 500px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #dfdd4b;
+    border: 2px solid #6666cc;
+
+}
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --RESPONSIVE -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+@media (max-height: 768px){ 
+    /* alto portatil */
+
+    .footer{
+        position: relative !important;
+    }
+
+    /* -- -- -- Estilos para el inicio -- -- -- */
+
+    .inicio_cabecera{
+        margin-top: 60px;
+    }
+
+    .inicio p.centrado{
+        margin-bottom: 60px;
+    }
+
+    /* -- -- -- Estilos para el registro -- -- -- */
+
+    .registro_cabecera{
+        margin-top: 40px;
+    }
+    
+    .registro_cabecera .titulo{
+        font-size: 45px;
+    }
+
+    .registro p.centrado{
+        margin-bottom: 40px;
+    }
+
+    .formulario_registro{
+        margin-bottom: 0;
+    }
+    
+    .form-group{
+        margin-bottom: 0;
+    }
+    
+    .form-group p, .form-group label{
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen 
+    and (max-width: 1367px) 
+    and (max-height: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5){
+        /* Ipad Pro Horizontal */
+
+
+        .footer{
+            position: relative;
+            margin-top: 68px; 
+        }
+
+        .registro{
+            margin-top: 120px;
+            margin-bottom: 50px;
+        }
+
+        .inicio{
+            margin-top: 136px;
+            margin-bottom: 0px;
+        }
+        
+        .inicio_cabecera{
+            margin-top: 50px;
+        }
+}
+
+@media (max-width: 1200px){
+    /* monitores normales y tablet horizontal */
+
+    .footer{
+        position: relative;
+    }
+
+    .registro{
+        margin-top: 54px;
+        margin-bottom: 104px;
+
+    }
+
+    .inicio{
+        margin-top: 54px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 992px){ 
+    /* tablet vertical */
+
+    .footer{
+        position: relative !important;
+    }
+}
+
+@media (max-width: 767px){
+    /* móviles*/
+    
+    .inicio{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .inicio_cabecera{
+        margin-top: 50px;
+    }
+
+    .registro_cabecera .titulo{
+        font-size: 30px
+    }
+
+    .inicio_cabecera .titulo{
+        font-size: 30px
+    }
+
+    .registro .linea_horizontal{
+        width: 205px;
+    }
+
+    .inicio .linea_horizontal{
+        width: 190px;
+    }
+
+    .formulario_inicio{
+        width: 100%;
+    }
+
+    .formulario_registro{
+        width: 100%;
+    }
+
+    .compra{
+        margin-top: 50px !important;        
+    }
+
+    .compra_cabecera{
+        margin-top: 40px !important;
+    }
+
+    .compra_cabecera .titulo{
+        font-size: 31px !important;
+    }
+    
+    .form-group{
+        margin-bottom: 0;
+    }
+    
+    .form-grou p, .form-group label{
+        margin-bottom: 0;
+    }
+}
